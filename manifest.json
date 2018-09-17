@@ -1,5 +1,5 @@
 {
-    "name": "Archive",
+    "name": "Arichive",
     "description" : "Archive Web Page",
     "version": "0.0.1",
     "manifest_version": 2,
@@ -10,6 +10,5 @@
         "scripts": ["js/background.js"],
         "persistent": false
     },
-    "permissions": ["tabs","notifications", "http://*/*", "https://*/*"],
-    "options_page": "options.html"
+    "permissions": ["contextMenus","tabs", "storage","notifications", "http://*/*", "https://*/*"]
   }
